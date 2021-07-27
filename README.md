@@ -30,7 +30,7 @@
 3. Los resultados se deben exportar en un archivo CSV con las siguientes cabeceras:
     * Title
     * Price
-    * Stock
+    * Stock (Se almacena solamente si el libro esta en stock o no)
     * Category
     * Cover
     * UPC
@@ -38,7 +38,7 @@
     * Price (excl. tax)
     * Price (incl. tax)
     * Tax
-    * Availability
+    * Availability (Se almacena la cantidad de libros disponibles)
     * Number of reviews
 4. Se debe incluir un archivo requeriments.txt con las dependencias que requiera el script.
 
