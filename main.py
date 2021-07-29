@@ -82,6 +82,6 @@ for i in links:
 """
 Las siguientes lineas son para convertir las listas a DataFrame para luego pasarlas a un archivo CSV
 """
-headers = {'Title': title, 'Price': price, 'Stock': stock, 'Category' : category, 'Cover': cover, 'UPC': upc, 'Product Type': product_Type,'Price (excl. tax)': price_ex_tax, 'Price (incl. tax)': price_in_tax, 'Tax': tax , 'Availability': availability, 'Number of reviews': number_of_reviews} 
+headers = {'Title': title, 'Price': price, 'Stock': stock, 'Category' : category_book, 'Cover': cover, 'UPC': upc, 'Product Type': product_Type,'Price (excl. tax)': price_ex_tax, 'Price (incl. tax)': price_in_tax, 'Tax': tax , 'Availability': availability, 'Number of reviews': number_of_reviews} 
 data = pd.DataFrame(headers)
 data.to_csv('books_To_Scrape.csv')
