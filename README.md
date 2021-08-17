@@ -1,4 +1,5 @@
 Este es un proyecto personal para poder mejorar habilidades de Web Scraping usando librerias requests y bs4.
+Fue sacado de una entrevista de trabajo que tuve hace un tiempo en donde me pedian realizar el ejercicio.
 
 A continuacion indicare lo que se tiene que desarrollar en python3 para lograr el proyecto. 
 
